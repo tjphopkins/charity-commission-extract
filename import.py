@@ -6,25 +6,7 @@ import sys
 import csv
 
 cc_files = {
-    "extract_acct_submit": [
-      "regno",
-      "submit_date",
-      "arno",
-      "fyend"
-    ],
-    "extract_aoo_ref": [
-      "aootype",
-      "aookey",
-      "aooname",
-      "aoosort",
-      "welsh",
-      "master"
-    ],
-    "extract_ar_submit": [
-      "regno",
-      "arno",
-      "submit_date"
-    ],
+
     "extract_charity": [
       "regno",
       "subno",
@@ -45,51 +27,12 @@ cc_files = {
       "phone",
       "fax",
     ],
-    "extract_charity_aoo": [
-      "regno",
-      "aootype",
-      "aookey",
-      "welsh",
-      "master"
-    ],
-    "extract_class": [
-      "regno",
-      "class"
-    ],
-    "extract_class_ref": [
-      "classno",
-      "classtext",
-    ],
     "extract_financial": [
       "regno",
       "fystart",
       "fyend",
       "income",
       "expend"
-    ],
-    "extract_main_charity": [
-      "regno",
-      "coyno",
-      "trustees",
-      "fyend",
-      "welsh",
-      "incomedate",
-      "income",
-      "grouptype",
-      "email",
-      "web"
-    ],
-    "extract_name": [
-      "regno",
-      "subno",
-      "nameno",
-      "name"
-    ],
-    "extract_objects": [
-      "regno",
-      "subno",
-      "seqno",
-      "object"
     ],
     "extract_partb": [
       "regno",
@@ -137,21 +80,6 @@ cc_files = {
       "volunteers",
       "cons_acc",
       "charity_acc"
-    ],
-    "extract_registration": [
-      "regno",
-      "subno",
-      "regdate",
-      "remdate",
-      "remcode"
-    ],
-    "extract_remove_ref": [
-      "code",
-      "text"
-    ],
-    "extract_trustee": [
-      "regno",
-      "trustee"
     ]
 }
 
